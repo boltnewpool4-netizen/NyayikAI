@@ -13,12 +13,13 @@ import Events from "./pages/Events";
 import Join from "./pages/Join";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
-import PrivacyPolicy from "./pages/PrivacyPolicy"; //Manual Changes
-import TermsConditions from "./pages/TermsConditions"; //Manual Changes
-import Disclaimer from "./pages/Disclaimer"; //Manual Changes
-import Sitemap from "./pages/Sitemap"; //Manual Changes
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsConditions from "./pages/TermsConditions";
+import Disclaimer from "./pages/Disclaimer";
+import Sitemap from "./pages/Sitemap";
+import NyayikAI from "./pages/NyayikAI";
 
-import GDPRCookieModal from "@/components/GDPRCookieModal"; //Manual Changes
+import GDPRCookieModal from "@/components/GDPRCookieModal";
 
 <> //Manual Changes
   <GDPRCookieModal /> //Manual Changes
@@ -57,11 +58,12 @@ function App() {
               <Route path="/events" element={<Events />} />
               <Route path="/join" element={<Join />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/nyayikai" element={<NyayikAI />} />
               <Route path="*" element={<NotFound />} />
-              <Route path="/privacy-policy" element={<PrivacyPolicy />} /> //Manual Changes
-              <Route path="/terms-conditions" element={<TermsConditions />} /> //Manual Changes
-              <Route path="/disclaimer" element={<Disclaimer />} /> //Manual Changes
-              <Route path="/sitemap" element={<Sitemap />} /> //Manual Changes
+              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+              <Route path="/terms-conditions" element={<TermsConditions />} />
+              <Route path="/disclaimer" element={<Disclaimer />} />
+              <Route path="/sitemap" element={<Sitemap />} />
             </Routes>
           </Layout>
         </BrowserRouter>

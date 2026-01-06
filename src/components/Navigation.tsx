@@ -10,6 +10,7 @@ const navLinks = [
   { href: "/about", label: "About Us" },
   { href: "/blog", label: "Blog" },
   { href: "/legal-aid", label: "Legal Aid" },
+  { href: "/nyayikai", label: "NyayikAI" },
   { href: "/collaborations", label: "Collaborations" },
   { href: "/events", label: "Events" },
   { href: "/join", label: "Join" },
